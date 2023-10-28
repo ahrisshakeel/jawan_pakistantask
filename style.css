@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1877f2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.cover-photo {
+    float: left;
+    width: 30%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.profile-picture {
+    background-image: url('profile-picture.jpg');
+    background-size: cover;
+    border: 4px solid #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -75px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+main {
+    margin: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-actions {
+    display: flex;
+    margin-top: 10px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Additional CSS for profile picture styling */
+.profile-picture {
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    
+    height: 150px;
+  
+    border: 4px solid #007BFF;
+    
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+.header-background {
+    background-image: url('https://scontent.fkhi2-3.fna.fbcdn.net/v/t1.6435-9/130823428_1709432842553137_117595038642884669_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=300f58&_nc_eui2=AeHejmeI0jAd7LYxOC4FAtvyozT4ZmvDnmKjNPhma8OeYtS8_Gmf3iPPP7lwZnRR8-zKM1iqHiw4yQnmnZWqt7bl&_nc_ohc=eDFdgDtq6RUAX8ogIQo&_nc_ht=scontent.fkhi2-3.fna&oh=00_AfDQl28IJmP4CwlQ_vRRoeurvUliGsiR8ennP824NPAsiw&oe=655A3928');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+   
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #007BFF;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.portfolio-info {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.profile-section,
+.experience-section,
+.education-section,
+.location-section,
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.profile-section h2,
+.experience-section h2,
+.education-section h2,
+.location-section h2,
+.contact-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-section p,
+.location-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.experience-section ul,
+.education-section ul,
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-section li,
+.education-section li,
+.contact-section li {
+    margin: 5px 0;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
